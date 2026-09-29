@@ -1,0 +1,75 @@
+ErrorDocument 403 /page73027063.html
+ErrorDocument 404 /page73027063.html
+
+DirectoryIndex page69803815.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://rostovbeauty\.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.rostovbeauty.ru [NC]
+RewriteRule ^(.*)$ https://rostovbeauty\.ru/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^exponentam$ page70539147.html [NC]
+RewriteRule ^exponentam/$ page70539147.html [NC]
+
+RewriteRule ^posetitelyam$ page70539187.html [NC]
+RewriteRule ^posetitelyam/$ page70539187.html [NC]
+
+RewriteRule ^programma$ page70539211.html [NC]
+RewriteRule ^programma/$ page70539211.html [NC]
+
+RewriteRule ^wellness-forum$ page80978736.html [NC]
+RewriteRule ^wellness-forum/$ page80978736.html [NC]
+
+RewriteRule ^beauty-forum$ page85147236.html [NC]
+RewriteRule ^beauty-forum/$ page85147236.html [NC]
+
+RewriteRule ^uchastniki$ page71356709.html [NC]
+RewriteRule ^uchastniki/$ page71356709.html [NC]
+
+RewriteRule ^zuma$ page89943236.html [NC]
+RewriteRule ^zuma/$ page89943236.html [NC]
+
+RewriteRule ^contacts$ page70539557.html [NC]
+RewriteRule ^contacts/$ page70539557.html [NC]
+
+RewriteRule ^peredacha-dannyh$ page71364039.html [NC]
+RewriteRule ^peredacha-dannyh/$ page71364039.html [NC]
+
+RewriteRule ^policy$ page70539273.html [NC]
+RewriteRule ^policy/$ page70539273.html [NC]
+
+RewriteRule ^polzovatelskoye-soglasheniye$ page71069955.html [NC]
+RewriteRule ^polzovatelskoye-soglasheniye/$ page71069955.html [NC]
+
+RewriteRule ^pravila-rektekhno$ page71071317.html [NC]
+RewriteRule ^pravila-rektekhno/$ page71071317.html [NC]
+
+RewriteRule ^soglasiye-metrprog$ page71075029.html [NC]
+RewriteRule ^soglasiye-metrprog/$ page71075029.html [NC]
+
+RewriteRule ^soglasiye-persdan$ page71075907.html [NC]
+RewriteRule ^soglasiye-persdan/$ page71075907.html [NC]
+
+RewriteRule ^soglasiye-rekinfo$ page71076217.html [NC]
+RewriteRule ^soglasiye-rekinfo/$ page71076217.html [NC]
+
+RewriteRule ^page69803816html$ page69803625.html [NC]
+RewriteRule ^page69803816html/$ page69803625.html [NC]
+
+RewriteRule ^podarok$ page95054656.html [NC]
+RewriteRule ^podarok/$ page95054656.html [NC]
+
+RewriteRule ^kokoshnik-look$ page95180046.html [NC]
+RewriteRule ^kokoshnik-look/$ page95180046.html [NC]
+
+RewriteRule ^baklanova$ page100290486.html [NC]
+RewriteRule ^baklanova/$ page100290486.html [NC]
+
+

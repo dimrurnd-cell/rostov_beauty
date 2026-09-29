@@ -1,0 +1,29 @@
+User-Agent: *
+Disallow: /page70539273.html
+Disallow: /policy
+Disallow: /page71069955.html
+Disallow: /polzovatelskoye-soglasheniye
+Disallow: /page71071317.html
+Disallow: /pravila-rektekhno
+Disallow: /page71075029.html
+Disallow: /soglasiye-metrprog
+Disallow: /page71075907.html
+Disallow: /soglasiye-persdan
+Disallow: /page71076217.html
+Disallow: /soglasiye-rekinfo
+Disallow: /page69803625.html
+Disallow: /page69803816html
+Disallow: /page69849481.html
+Disallow: /page73027063.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow:
+
+
+Sitemap: https://rostovbeauty.ru/sitemap.xml
